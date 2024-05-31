@@ -1,0 +1,397 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+
+
+nav{
+    width:100%;
+    height: 10dvh;
+    
+    
+}
+
+.titlebar{
+    width: 70%;
+   color:burlywood;;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   /* background-color: blueviolet;*/
+   
+}
+
+.two-button{
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    /*background-color: aquamarine;*/
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.adjf-b{
+    width: 80px;
+    height: 30px;
+    /*background-color: burlywood; */
+    border:1px solid gray;
+    margin-left: 20px;
+       
+}
+
+.adj-b{
+    width: 80px;
+    height: 30px;
+    /*background-color: burlywood; */
+    border:1px solid gray;
+    margin-left: 20px;
+       
+}
+
+main{
+    width:100vw ;
+    height: 80vh;
+   /* background-color: aquamarine;*/
+}
+
+.img-class{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background-color: cadetblue;*/
+}
+
+.fac{
+    margin-left: 4em;
+}
+
+.brand-name{
+    width: 980px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*background-color: burlywood;*/
+    padding-left: 50px;
+}
+
+.ex-fact{
+    width: 980px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    padding-left: 50px;
+}
+
+.price{
+    width: 980px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*background-color: rgb(31, 21, 215);*/
+    padding-left: 50px;
+}
+
+.inner-fa{
+    width: 80px;
+    margin-left: 180px;
+    /*background-color:rgb(30, 210, 150)*/
+}
+.inner-love{
+    width: 80px;  
+    margin-left: 40px;
+   /* background-color:rgb(229, 31, 183)*/
+}
+
+.inner-miss{
+    margin-left: 10px;
+    margin-right: 20px;
+    color:rgb(30, 135, 210);
+}
+
+.inner-ex{
+    margin-right: 40px;
+    color:rgb(210, 69, 30)
+}
+
+.inner-pricefa{
+    width: 150px;
+    margin-left: 180px;
+   /* background-color:rgb(210, 162, 30)*/
+}
+.inner-pricelove{
+    width: 80px;  
+    margin-left: 40px;
+   
+}
+
+.inner-pricemiss{
+    margin-left: 10px;
+    margin-right: 20px;
+    color:rgb(30, 135, 210);
+}
+
+.inner-priceex{
+    margin-right: 40px;
+    color:rgb(210, 69, 30)
+}
+
+.count-part{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content:flex-start;
+    
+    
+}
+
+.count-fa{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:250px;
+    
+    
+}
+
+.incre-fa{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    
+}
+
+.decre-fa{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    height: 30px;
+}
+
+.value-fa{
+    margin-left: 10px;
+}
+
+
+.count-love{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+   margin-left: 30px;
+    
+}
+
+.incre-love{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.decre-love{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.value-love{
+    margin-left: 10px;
+}
+
+
+.count-missing{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background-color: rgb(229, 36, 187);*/
+    
+   margin-left: 30px;
+}
+
+.incre-missing{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.decre-missing{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.value-missing{
+    margin-left: 10px;
+}
+
+
+
+.count-ex{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background-color: rgb(36, 136, 229);*/
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.incre-ex{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.decre-ex{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.value-ex{
+    margin-left: 10px;
+}
+
+.total-cost{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   margin-top: 30px;
+   /*background-color: cadetblue;*/
+   margin-left: 30px;
+}
+
+.input-user{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+   margin-top: 30px;
+   /*background-color: cadetblue;*/
+}
+
+.nameclass{
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.addressclass{
+    width: 300px;
+    height: 20px;
+    margin-left: 18px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+
+.phoneclass{
+    width: 300px;
+    height: 20px;
+    margin-left: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.buyclass{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   margin-top: 30px;
+   /*background-color: cadetblue;*/
+   margin-left: 30px;
+}
+
+.buy{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(205, 196, 196);
+    color:black;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgb(116, 18, 220);
+}
+
+.footerclass{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: -2px;
+    padding-left: 12px;
+
+}
+ 
+@media only screen and (max-width: 1200px){
+    .titlebar{
+        width: 30%;
+    }
+
+    .two-button{
+        width: 50%;
+    }
+   
+}
+
+@media only screen and (max-width:800px) {
+
+    .adjf-b{
+        margin-right: 3px;
+        width: 50px;
+    }
+
+    .adj-b{
+        margin-left: 10px;
+        width: 50px;
+    } 
+
+    main{
+        margin-top: 14px;
+        width: 100%;
+        height: 90%;
+        
+       
+    }
+    
+    
+}
+
+
+    
